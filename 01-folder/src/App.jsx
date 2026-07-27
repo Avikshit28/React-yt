@@ -1,17 +1,12 @@
 import React from 'react'
+import Card from './components/Card.jsx'
 const App = () => {
   return (
-    <>
-    <div id='Papa'>
-
+    <div>
+      <div className='card'>
+      <Card/>
+      </div>
     </div>
-    <div id='Chacha'>
-
-      
-    </div>
-    
-    
-    </>
   )
 }
 
